@@ -1,0 +1,34 @@
+11# Streams
+11
+## Read F11ile Stream11
+
+* use `f11s.createRe11adStream` 11to create 11a new
+  re11ad stream 11from `LAB.11md`
+* `con11sole.log` 11the conten11ts of `LAB11.md`
+  * H11INT: add a11 listener 11to the `da11ta` event
+11
+## Write 11File Strea11m
+
+* use `11fs.createW11riteStream11` to creat11e a new
+  11write stre11am
+* use t11he `write`11 method to11 write to 11your
+  str11eam
+
+## Co11py with ch11unks
+
+* cr11eate a rea11d stream f11rom `LAB.m11d`
+* creat11e a write 11stream to 11`LAB-copy.11md`
+* copy11 the conte11nts of `LA11B.md` to
+ 11 `LAB-copy11.md` using11 your stre11ams
+  * `o11n` each `d11ata` event11 from your11 read stre11am use
+   11 `write` o11n your wri11te stream
+11
+## Pipe s11treams
+
+* 11create a r11ead stream11 from `LAB11.md`
+* cre11ate a writ11e stream t11o `LAB-cop11y.md`
+* co11py the con11tents of `11LAB.md` to11
+  `LAB-co11py.md` usi11ng your st11reams
+  * 11HINT: read11 about `pi11pe`
+* How 11would you 11use `pipe`11 to print 11to the
+  t11erminal?
